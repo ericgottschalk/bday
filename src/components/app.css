@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #191A31 !important; 
+}
+
+.footer {
+    position: absolute;
+    display: table; 
+    vertical-align: middle;
+    bottom: 100px;
+}
+
+.centerd {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+h1 {
+    color: #80e5c4;
+    text-align: center;
+    font-family: Big Noodle Too,impact,sans-serif;
+    font-size: 4.88281rem;
+    font-style: italic;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: normal;
+    letter-spacing: .5px;
+}
+
+@media only screen and (max-width: 580px) {
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    h1 {
+        font-size: 30px;
+    }
+}
+

@@ -1,0 +1,81 @@
+﻿.bolo {
+    background: #5d4037;
+    border-radius: 50%;
+    box-shadow: 0px 33px 0px 0px #e57f99, 0px 66px 0px 0px #f3e4aa, 0px 99px 0px 0px #795548;
+    height: 33px;
+    left: calc(50% - 75px);
+    position: absolute;
+    top: calc(50% - 62px);
+    width: 150px;
+}
+
+    .bolo:before {
+        background: #e57f99;
+        box-shadow: 0px 33px 0px 0px #f3e4aa, 0px 66px 0px 0px #795548;
+        content: '';
+        height: 33px;
+        position: absolute;
+        top: 16.5px;
+        width: 150px;
+        z-index: -1;
+    }
+
+    .bolo:after {
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 26px -5px 0px 6px #ff4545, 56px -12px 0px 5px #ff4545, 95px -12px 0px 5px #ff4545, 56px 7px 0px 6px #ff4545, 95px 7px 0px 6px #ff4545, 125px -5px 0px 6px #ff4545, 7.333333333333334px 6px 0px 8.333333333333334px #5d4037, 24px 11px 0px 8.333333333333334px #5d4037, 40.66666666666667px 14px 0px 8.333333333333334px #5d4037, 57.333333333333336px 16px 0px 8.333333333333334px #5d4037, 74px 17px 0px 8.333333333333334px #5d4037, 90.66666666666667px 16px 0px 8.333333333333334px #5d4037, 107.33333333333334px 14px 0px 8.333333333333334px #5d4037, 124.00000000000001px 11px 0px 8.333333333333334px #5d4037, 140.66666666666669px 6px 0px 8.333333333333334px #5d4037;
+        content: '';
+        height: 2px;
+        position: absolute;
+        top: 12px;
+        width: 2px;
+    }
+
+.vela {
+    background-color: white;
+    bottom: 22px;
+    height: 36px;
+    left: 70px;
+    position: absolute;
+    width: 10px;
+}
+
+    .vela:before {
+        background: #ffc0cb;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        border-radius: 50%;
+        box-shadow: 0px 48px 0px 0px #ffc0cb;
+        box-sizing: border-box;
+        content: '';
+        height: 5px;
+        left: 0px;
+        position: absolute;
+        top: -2px;
+        width: 10px;
+    }
+
+.fogo {
+    position: absolute;
+    -webkit-transform: rotate(-45deg) translateX(-35%);
+    transform: rotate(-45deg) translateX(-35%);
+    left: 70px;
+    top: -150%;
+    background: orange;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: 0 1px 6px #ffb733, 0 2px 20px #ffdf33, 0 3px 30px white, 0 2px 20px #ccac00, 0 3px 30px white;
+    box-shadow: 0 1px 6px #ffb733, 0 2px 20px #ffdf33, 0 3px 30px white, 0 2px 20px #ccac00, 0 3px 30px white;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.sombra {
+    background: #444;
+    border-radius: 50%;
+    height: 40px;
+    position: absolute;
+    top: 99px;
+    width: 200px;
+    z-index: -2;
+}
